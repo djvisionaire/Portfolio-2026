@@ -1,4 +1,23 @@
 @ import url('https://fonts.googleapis.com/css2?family=lato:wght@400;700&display=swap');
+
+
+* {
+    transition: all 300ms ease;
+}
+
+.dark-theme {
+    background-color: black;
+    color: white;
+}
+
+.dark-theme * {
+    color: white;
+}
+
+.light-theme {
+    background-color: white;
+    color: black;
+}
 * {
     color: Blue;
     font-family: 'lato', sans-serif;
